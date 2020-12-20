@@ -69,8 +69,32 @@ married(abhimanyu,uttara).
 married(parikshit,madravti).
 married(janamejaya,vapushtama).
 married(shantanu,ganga).
-married(vyasa,voorna).
+married(vyasa,poorna).
 married(parashara,satyavati).
+married(karna,vrishali).
+married(kunti,pandu).
+married(gandhari,dhritrashtra).
+married(madri,pandu).
+married(devaki,vasudeva).
+married(rohini,vasudeva).
+married(draupadi,nakula).
+married(draupadi,sahadeva).
+married(draupadi,arjuna).
+married(subhadra,arjuna).
+married(ulupi,arjuna).
+married(chitrangda,arjuna).
+married(draupadi,bhima).
+married(hidimba,bhima).
+married(draupadi,yudhisthira).
+married(uttara,abhimanyu).
+married(madravti,parikshit).
+married(vapushtama,janamejaya).
+married(ganga,shantanu).
+married(poorna,vyasa).
+married(satyavati,parashara).
+married(vrishali,karna).
+married(satyavati,shantanu).
+married(shantanu,satyavati).
 child(vyasa,parashara).
 child(vyasa,satyavati).
 child(bheesma,shantanu).
@@ -100,7 +124,7 @@ child(balaram,vasudeva).
 child(subhadra,rohini).
 child(balaram,rohini).
 child(abhimanyu,arjuna).
-child(abhimanyu,subhadra)
+child(abhimanyu,subhadra).
 child(ghatotchkacha,bhima).
 child(ghatotchkacha,hidimba).
 child(prativindhya,yudhisthira).
@@ -121,6 +145,7 @@ child(parikshit,uttara).
 child(parikshit,abhimanyu).
 child(janamejaya,parikshit).
 child(janamejaya,madravti).
+child(karna,kunti).
 parent(X,Y) :- child(Y,X).
 father(X,Y) :- male(X),child(Y,X).
 mother(X,Y) :- female(X),child(Y,X).
